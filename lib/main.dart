@@ -9,9 +9,11 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         backgroundColor: Colors.blueGrey,
-        body: image(
-          
-        ),
+        body:Center(
+          child: Image(
+            image:NetworkImage('https://freesvg.org/img/Blue-Robot.png'),
+          ),
+        )
       ),
     ),
   );
