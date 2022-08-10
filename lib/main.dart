@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home:Scaffold(
+      home: Scaffold(
         appBar: AppBar(
-          title : Text('I AM RICH'),
+          title: Text('I AM RICH'),
           backgroundColor: Colors.blueGrey[900],
         ),
         backgroundColor: Colors.blueGrey,
-        body:Center(
+        body: Center(
           child: Image(
-            image:NetworkImage('https://freesvg.org/img/Blue-Robot.png'),
+            image: AssetImage('images/diamond.png'),
           ),
-        )
+        ),
       ),
     ),
   );
