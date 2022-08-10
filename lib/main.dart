@@ -5,7 +5,7 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('I AM RICH'),
+          title: Text('I AM RICH test app'),
           backgroundColor: Colors.blueGrey[900],
         ),
         backgroundColor: Colors.blueGrey,
@@ -19,5 +19,5 @@ void main() {
   );
 
 
-  
+
 }
